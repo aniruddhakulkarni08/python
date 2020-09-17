@@ -1,0 +1,9 @@
+version: "3.8"
+services: 
+    python:
+        build:
+          context: .
+        container_name: python
+        image:  661611/python:1.0.0
+        ports:
+        - 3000:3000
